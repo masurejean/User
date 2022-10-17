@@ -20,7 +20,7 @@ class UserType extends AbstractType
             ->add('email',EmailType::class)
             /* ->add('roles') */
             ->add('password',PasswordType::class)
-            ->add('confirmpassword',PasswordType::class)
+            ->add('confirmPassword',PasswordType::class)
             ->add('nom')
             ->add('prenom')
             ->add('birthdate',TypeDateType::class,['widget'=>'single_text'])
